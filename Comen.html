@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="assets/css/comen.css" />
+    <link rel="icon" href="assets/img/Fotos_Alan/DSC_0010.jpg" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-------------------Loader--------------------------->
+    <div class="centro" id="onload">
+      <div class="banter-loader">
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+        <div class="banter-loader__box"></div>
+      </div>
+    </div>
+    <!----------------------------------------------------->
+    <a href="index.html" class="iconoHome">
+      <i class='bx bx-left-arrow-alt'></i>
+    </a>
+    <div class="comment-box">
+      <h2>Deja un comentario</h2>
+      <form action="https://formsubmit.co/alandaniellon01@gmail.com"  method="POST" id="comment-form">
+        <input type="text"  name="name" placeholder="Nombre" required>
+        <input type="email"  name="email" placeholder="Correo electrónico" required>
+        <textarea  name="comment" placeholder="Escribe tu comentario" required></textarea>
+        <button type="submit">Comentar</button>
+      </form>
+      <div id="comments-container">
+        <!-- Los comentarios se mostrarán aquí -->
+      </div>
+    </div>
+
+
+
+    <div class="linea"></div>
+    <div class="fin">
+      <h5>© 2024. Alan Daniel pk - Alan Daniel Londoño</h5>
+      <h5>Medellín - Colombia.</h5>
+      <h6>V:1.0.5</h6>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
